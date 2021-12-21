@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 659
     width: 439
     height: 328
-  m_MinSize: {x: 240, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 241, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 30
+  controlID: 93
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 29
+  controlID: 92
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 99
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,12 +246,12 @@ MonoBehaviour:
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
-  - {fileID: 21}
   - {fileID: 18}
   - {fileID: 16}
   - {fileID: 15}
+  - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 4
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1243
+  controlID: 100
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,7 +380,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 885
+    width: 1480
     height: 694
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -228698
+  m_LastSelectedObjectID: -153058
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -632,22 +632,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Project\TileVania
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 9}
-    m_SelectedIDs: 98610000
-    m_LastClickedID: 24984
-    m_ExpandedIDs: 00000000205800002258000024580000c4a600004ca90000a8e30000c4e30000
+    m_SelectedIDs: 5c5a0000
+    m_LastClickedID: 23132
+    m_ExpandedIDs: 000000005c5a00005e5a0000605a0000625a0000645a0000665a0000685a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -675,7 +675,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000205800002258000024580000
+    m_ExpandedIDs: 000000005c5a00005e5a0000605a0000625a0000645a0000665a0000685a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -702,7 +702,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f4510000b8520000e2520000e2570000b4560000f0560000c0580000e6dd0000cedd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1070,9 +1070,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.39022, y: 1.7759485, z: 0.14721671}
+    m_Target: {x: 4.4302144, y: 2.0763884, z: 0.20649941}
     speed: 2
-    m_Value: {x: 6.39022, y: 1.7759485, z: 0.14721671}
+    m_Value: {x: 4.4302144, y: 2.0763884, z: 0.20649941}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1123,9 +1123,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.8498425
+    m_Target: 6.528892
     speed: 2
-    m_Value: 5.8498425
+    m_Value: 6.528892
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1183,21 +1183,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4853fcffba53fcff3257fcff7658fcff4659fcff0864fcff6065fcffc467fcff8882fcffe882fcff6a95fcff8a95fcff9e95fcff9a96fcff1c9cfcff289dfcffae9efcff48a0fcfffc06fdff8a07fdff2817fdff6a17fdff901efdff8e1ffdff1021fdffc64ffdff0a51fdffa45ffdff88a1fdff50b4fdff3cb5fdffb2bdfdffb6bdfdff32befdff82c6fdff30cefdff26d7fdff44defdff9ee9fdffdeeafdff02ecfdffc2fbfdff34fcfdff96fefdff18fffdffdcfffdffe6fffdfffa54feff0255feff0a55feff1255feff5865feffa26bfeff1e6cfeff3a6efeff506efeffcc6efeff4670feffac71feff1281feff04aafeff0c47ffffbe54ffff849fffff80c4ffff64c6ffff30c7fffffcc7ffff74ccffffe4cdffff44d2ffff96effffff8fafffff4ffffff165600003a8200005cd1000060e300002cf2000014000100de0801003c260100d84a0100125501007655010098550100
+      m_ExpandedIDs: 7442fdffce42fdff2845fdff2c47fdff9648fdff6a4afdffbe4bfdff944cfdff064efdff3853fdff8e54fdff1eaafdff58aafdff34b0fdffeabffdffeedcfdff2addfdff64ddfdff4cdefdff6adffdffb0e1fdff5ce3fdff72e5fdfffce6fdff26e9fdff5600feff9200feff9400feffbc1bfeff301cfeff6a1cfeffb442feff2843feff6243feff9279feff749dfeffae9dfeff1cb5feff56b5feff68befeffc0bffeff58c1feffccc1feff06c2feff5ec4feff06cafeff40cafeffdedbfeff18dcfeff92ddfeff94dffeff2ce1feff5ee3feff02e5feffbc31ffff3032ffff4432ffff3433ffff4e34ffffba6effffce6effffbc7dffff9683ffffcc9dffffd4beffff78c0ffffbac0ffff2ec4ffffbcc4ffff8cc5ffffcac5ffffe4c6ffff5cc8ffff5ac9ffff90faffffaafaffffb0fafffff2fafffff4ffffff62ac0000a8ad00004cc90000a4c900008ae600000e2d0100f2820100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: EndGameCanvas
+        m_OriginalName: EndGameCanvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 94622
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 12}
       m_SearchString: 
