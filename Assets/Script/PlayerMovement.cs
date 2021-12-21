@@ -122,6 +122,7 @@ public class PlayerMovement : MonoBehaviour
             Anim.SetTrigger("Dying");
             myrigidbody.velocity = deathKick;
             Destroy(gameObject,2f);
+            FindObjectOfType<GameManager>().ProcessPlayerDeath();
         }
     }
     

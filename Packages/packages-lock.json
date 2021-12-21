@@ -102,7 +102,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.4",
+      "version": "1.15.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -196,7 +196,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.6.2",
+      "version": "1.6.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {

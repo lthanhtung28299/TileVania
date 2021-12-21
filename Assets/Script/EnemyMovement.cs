@@ -6,6 +6,8 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 1f;
+    [SerializeField] public int EnemyPoints = 100;
+
     Rigidbody2D myRigidbody;
     SpriteRenderer mySprite;
     void Start()
@@ -29,4 +31,5 @@ public class EnemyMovement : MonoBehaviour
     {
         transform.localScale = new Vector2 (-(Mathf.Sign(myRigidbody.velocity.x)), 1f);
     }
+
 }

@@ -8,8 +8,10 @@ public class Arrow : MonoBehaviour
     float xSpeed;
     Rigidbody2D myRigidbody;
     PlayerMovement player;
+    EnemyMovement enemy;
     void Start()
     {
+        enemy = FindObjectOfType<EnemyMovement>();
         myRigidbody = GetComponent<Rigidbody2D>();
         player = FindObjectOfType<PlayerMovement>();
         xSpeed = player.transform.localScale.x * arrowSpeed;
@@ -25,6 +27,7 @@ public class Arrow : MonoBehaviour
         if(other.tag == "Enemy")
         {
             Destroy(other.gameObject);
+            FindObjectOfType<GameManager>().AddScore(enemy.EnemyPoints);
         }
             Destroy(gameObject);
     }
